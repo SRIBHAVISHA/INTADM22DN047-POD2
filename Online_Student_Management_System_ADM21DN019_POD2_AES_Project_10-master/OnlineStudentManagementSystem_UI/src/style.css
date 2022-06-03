@@ -1,0 +1,101 @@
+
+body {
+    background-image: url('b.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  li {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 25%;
+      background-color: #f1f1f1;
+      height: 100%; /* Full height */
+      position: fixed; /* Make it stick, even on scroll */
+      overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    }
+    /* Add a black background color to the top navigation */
+  .topnav {
+      background-color: #333;
+      overflow: hidden;
+    
+      
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: green;
+     
+    }
+  
+    .topnav a.login {
+      margin-inline-end: auto;
+    }
+    
+      .buttons{
+        border: black;
+        color:whitesmoke;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+      
+        font-size: 20px;
+        margin: right;
+        cursor: pointer;
+        
+      }
+      .head
+      {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        padding-top: 10px;
+      }
+      .txt
+      {
+        font-size: 15px;
+      }
+      .form-group{
+        padding-left: 400px;
+        padding-right: 400px;
+        text-align: left;
+      }
+      .btn btn-light btn-outline-primary
+      {
+        color: black;
+      }
+      .home1{
+        font-size: 30px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+        text-align: center;
+        padding-top: 30px;
+        
+      }
+     .txt{
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+      }
+.a
+{
+  color: white;
+}
+    
+    
